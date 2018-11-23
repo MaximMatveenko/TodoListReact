@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    border: 2px solid gray;
+    border-radius: 7px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+}
+
+.legacy {
+    font-weight: 400;
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.TaskInput {
+    padding: 20px;
+}
+
+#TasksTextInput {
+    width: 83%;
+    padding: 7px;
+}
+
+#TasksTextInput::placeholder {
+    font-size: 15px;
+}
+
+.saveBtn {
+    background-color: #6699CC;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+    padding: 2px 5px 6px 10px;;
+    margin-left: 15px;
+}
+
+.saveBtn:hover {
+    background-color: #9966FF;
+}
+
+.theList li{
+    margin: 10px 20px;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    word-wrap: break-word;
+
+}
+
+.taskDelBtn {
+    font-size: 15px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1ps solid gray;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding: 2px 5px;
+    position: absolute;
+    right: 10px;
+}
